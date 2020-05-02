@@ -642,18 +642,13 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #ccc;
-    border-bottom-right-radius: 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; }
+    border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
         width: 100%; } }
   .intro-section:after {
     content: "";
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
     right: 0;
@@ -902,7 +897,7 @@ h1, h2, h3, h4, h5,
       text-decoration: none; }
 
 .footer-section {
-  padding: 7em 0; }
+  padding: 3em 0; }
   .footer-section p {
     font-size: 1rem; }
   .footer-section h3 {
@@ -941,4 +936,4 @@ h1, h2, h3, h4, h5,
   padding-bottom: 8rem !important; }
 
 .footer-section {
-  padding-top: 12rem !important; }
+  padding-top: 3rem !important; }
